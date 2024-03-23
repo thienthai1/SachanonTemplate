@@ -441,6 +441,12 @@ a {
     top: -20px;
   }
 
+  @media (max-width: 768px) {
+    .hero-img-wrap {
+        display: none;
+    }
+  }
+
 .testimonial-slider-wrap {
   position: relative; }
   .testimonial-slider-wrap .tns-inner {
